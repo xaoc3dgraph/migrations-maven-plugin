@@ -1,7 +1,7 @@
 migrations-maven-plugin
 =======================
 
-Simple plugin for prefix flyway migrations with timestamp
+Simple plugin for prefix [flywaydb](http://flywaydb.org/) migrations with timestamp
 
 #Configuration
 
@@ -35,5 +35,5 @@ Running
  mvn migrations:new -Dname=create_new_table
 ```
 
-This command create new migration file like ${project.basedir}src/main/resources/db1/migration/V20140228225148416__create_new_table.sql
+This command create new migration file like: ${project.basedir}src/main/resources/db1/migration/**V20140228225148416__create_new_table.sql**
 
