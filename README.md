@@ -7,11 +7,13 @@ Simple plugin for prefix flyway migrations with timestamp
 
 #Repository settings
 ```xml
-  <repository>
+<pluginRepositories>
+  <pluginRepository>
     <id>xdev.developer.repo</id>
     <name>xdev developer repository</name>
-    <url>http://xaoc3dgraph.github.com/maven/</url>
-  </repository>
+    <url>http://xaoc3dgraph.github.io/maven/</url>
+  </pluginRepository>
+</pluginRepositories>
 ```
 
 #Plugin configuration
