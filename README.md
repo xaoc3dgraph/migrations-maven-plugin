@@ -11,7 +11,7 @@ Simple plugin for prefix [flywaydb](http://flywaydb.org/) migrations with timest
   <pluginRepository>
     <id>xdev.developer.repo</id>
     <name>xdev developer repository</name>
-    <url>http://xaoc3dgraph.github.io/maven/</url>
+    <url>http://xdev-developer.github.io/maven/</url>
   </pluginRepository>
 </pluginRepositories>
 ```
